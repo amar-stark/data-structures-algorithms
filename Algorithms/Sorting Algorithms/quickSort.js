@@ -15,9 +15,9 @@ function quickSort(arr) {
     if (arr.length === 1) return arr;
 
     let pivotElement = arr[arr.length - 1], leftArray = [], rightArray = [];
-    
+
     for (var i = 0; i < arr.length - 1; i++) {
-        
+
         if (arr[i] < pivotElement) {
             leftArray.push(arr[i]);
         } else {

@@ -8,7 +8,7 @@ let arr = [8, 20, -2, 4, -6, 7, 10, -1, 1, -20];
 function mergeSort(arr) {
     if (arr.length === 1) return arr;
 
-    let midIndex = Math.floor(arr.length/2),
+    let midIndex = Math.floor(arr.length / 2),
         leftArray = arr.slice(0, midIndex),
         rightArray = arr.slice(midIndex);
 
@@ -17,7 +17,7 @@ function mergeSort(arr) {
 
 function merge(leftArray, rightArray) {
     let sortedArray = []
-    
+
     while (leftArray.length && rightArray.length) {
         if (leftArray[0] <= rightArray[0]) {
             sortedArray.push(leftArray.shift())
@@ -25,7 +25,7 @@ function merge(leftArray, rightArray) {
             sortedArray.push(rightArray.shift())
         }
     }
-    
+
     return [...sortedArray, ...leftArray, ...rightArray];
 }
 

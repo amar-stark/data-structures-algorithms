@@ -21,12 +21,6 @@ function binarySearch(t) {
 
         if (t === arr[middleIndex]) return middleIndex;
 
-        // if (arr[middleIndex] < t) {
-        // 	leftIndex = middleIndex + 1;
-        // } else {
-        // 	rightIndex = middleIndex - 1;
-        // }
-
         if (t < arr[middleIndex]) {
             rightIndex = middleIndex - 1;
         } else {

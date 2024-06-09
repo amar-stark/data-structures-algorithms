@@ -3,8 +3,13 @@
 /* 
 Problem - Give a positive integer 'n', determine if the number is a power of 2 or not.
 An integer is a power of two if there exists an integer 'x' such that 'n' === 2x isPowerOfTwo (1) = true (2º)
-isPowerOfTwo(2) = true (21)
+isPowerOfTwo(2) = true (2^1)
+isPowerOfTwo(8) = true (2^3)
 isPowerOfTwo(5) = false
+
+IDEA
+-----------
+If n is not completely divisible by 2 (%2), its not 2^x
 */
 
 

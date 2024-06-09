@@ -1,14 +1,13 @@
 // Fibonacci Sequence
 // Fibonacci is a sequence where each number is the sum of its two preceding numbers
+// c = a + b
 
 /* === Traditional method === */
 
 function fibonacci(n) {
     let fibArray = [0, 1];
 
-    if (n === 0) return value;
-    if (n === 1) return [0];
-    if (n === 2) return fibArray;
+    if (n < 2) return n;
 
     for (var i = 2; i < n; i++) {
         fibArray[i] = fibArray[i - 1] + fibArray[i - 2];

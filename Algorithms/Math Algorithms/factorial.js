@@ -1,4 +1,4 @@
-// Factorial of a number
+// Factorial of a number (n!)
 // Factorial is the product of all integers less than or equal to n.
 
 /* === Traditional method === */

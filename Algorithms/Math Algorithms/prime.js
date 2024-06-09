@@ -26,7 +26,7 @@ console.log(isPrime(9)) // false
 /* === Optimised solution === */
 
 /* 
-  Integers larger than the square root do not need to be checked because, whenever 'n=a*b', one of the two factors 'a' and 'b' is less than or equal to the square root of 'n'
+  Integers larger than the square root of n do not need to be checked because, whenever 'n=a*b', one of the two factors 'a' and 'b' is less than or equal to the square root of 'n'
  
   n=24, a=4 and b=6
   The square root of 24 is 4.89
