@@ -1,2 +1,2 @@
 # data-structures-algorithms
-Repository to store Data Structures and Algorithms practise
+Repository to store Data Structures and Algorithms practice
