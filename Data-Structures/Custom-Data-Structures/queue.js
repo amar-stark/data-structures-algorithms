@@ -73,14 +73,14 @@ class QueueObj {
     // This method adds a new element to the back (end) of the queue.
     enqueue(elem) {
         this.items[this.rear] = elem;
-        
+
         this.rear++;
     }
 
     // This method removes and returns the element at the front of the queue.
     dequeue() {
         const first = this.items[this.front];
-        
+
         delete this.items[this.front];
 
         this.front++;

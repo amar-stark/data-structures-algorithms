@@ -48,7 +48,7 @@ console.log(arr.concat([9, 8, 7]))
 
 // slice(start, end) -> Extracts a section of the array and end element is not included.
 // returns new array and original array is not-modified.
-console.log(arr.slice(3,6))
+console.log(arr.slice(3, 6))
 
 // join(separator) -> Joins all elements of the array into a string, separated by the specified separator.
 // returns new string and original array is not-modified.
